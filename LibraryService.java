@@ -9,6 +9,7 @@ public class LibraryService {
     }
 
     public static void main(String[] args) {
+        System.out.println("--- Library Service Demo ---");
         try {
             int remaining = issueBook(3, "Java Programming");
             System.out.println("Remaining copies: " + remaining);
