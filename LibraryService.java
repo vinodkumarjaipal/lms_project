@@ -1,5 +1,5 @@
 public class LibraryService {
-
+    // Issues one copy of the given title from the catalogue
     public static int issueBook(int availableCopies, String title) throws BookUnavailableException {
         if (availableCopies <= 0) {
             throw new BookUnavailableException("'" + title + "' has no copies available.");
@@ -13,6 +13,7 @@ public class LibraryService {
     public static String findMemberById(int id) {
         return "Member #" + id;
     }
+
     /**
      * Main method to demonstrate the functionality of the LibraryService class.
      */
