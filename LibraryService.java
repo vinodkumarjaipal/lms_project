@@ -13,7 +13,9 @@ public class LibraryService {
     public static String findMemberById(int id) {
         return "Member #" + id;
     }
-
+    /**
+     * Main method to demonstrate the functionality of the LibraryService class.
+     */
     public static void main(String[] args) {
         try {
             System.out.println("Remaining copies: " + issueBook(3, "Clean Code"));
